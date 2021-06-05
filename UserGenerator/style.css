@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#app{
+    margin-top: 65%;
+}
+
+img{
+    border-radius: 50%;
+    border: 5px solid rgb(39, 39, 39);
+}
+
+button{
+    background-color: rgb(39, 39, 39);
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 14px 20px;
+    margin-top: 5%;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 5px solid rgb(39, 39, 39);
+}
+
+.male{
+    background-color: rgb(85, 158, 226);
+    border: 5px solid rgb(85, 158, 226);
+}
+
+.female{
+    background-color: rgb(247, 122, 252);
+    border: 5px solid rgb(247, 122, 252); 
+    color: #333;
+}
